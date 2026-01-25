@@ -2,111 +2,245 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Krishna Crypto | Forex Trading Community</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krishna Crypto – Premium Community</title>
 
 <style>
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: #f7fbff;
+/* FULL PAGE CENTER */
+.page-bg{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(180deg,#f3f7ff,#eef2f9);
+padding:20px;
 }
 
-.top-bar {
-    background: #d9f1ff;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
+/* MAIN CARD */
+.kr-card{
+max-width:430px;
+width:100%;
+background:#ffffff;
+padding:32px 22px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 18px 40px rgba(0,0,0,0.08);
+font-family:Arial,sans-serif;
 }
 
-.container {
-    text-align: center;
-    padding: 40px 20px;
+/* LOGO */
+.kr-logo{
+width:90px;
+height:90px;
+border-radius:50%;
+object-fit:cover;
+display:block;
+margin:0 auto;
+border:3px solid #0d6efd;
+box-shadow:0 0 15px rgba(13,110,253,0.5);
 }
 
-.logo {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #0d6efd;
+/* PREMIUM BADGE */
+.kr-badge{
+display:inline-block;
+margin-top:12px;
+padding:7px 16px;
+font-size:13px;
+font-weight:bold;
+border-radius:50px;
+color:#fff;
+background:linear-gradient(45deg,#ff9800,#ffc107);
+box-shadow:0 0 15px rgba(255,193,7,0.7);
+animation:badgeGlow 1.5s infinite alternate;
 }
 
-.title {
-    font-size: 28px;
-    font-weight: bold;
-    color: #0d6efd;
-    margin-top: 15px;
+/* BADGE GLOW */
+@keyframes badgeGlow{
+from{
+box-shadow:0 0 8px rgba(255,193,7,0.5);
+}
+to{
+box-shadow:0 0 20px rgba(255,193,7,1);
+}
 }
 
-.subtitle {
-    color: #00c853;
-    font-size: 18px;
-    margin-top: 8px;
-    font-weight: bold;
+/* TITLE */
+.kr-title{
+font-size:23px;
+font-weight:bold;
+margin-top:14px;
+color:#111;
 }
 
-.stats {
-    margin: 20px 0;
-    font-size: 16px;
-    font-weight: bold;
+/* SUBTITLE */
+.kr-subtitle{
+font-size:14px;
+color:#555;
+margin-top:6px;
 }
 
-.features {
-    max-width: 400px;
-    margin: auto;
-    text-align: left;
+/* TRUST BADGE TEXT */
+.kr-trust{
+margin-top:10px;
+font-size:14px;
+font-weight:bold;
+color:#0d6efd;
 }
 
-.features li {
-    list-style: none;
-    margin: 10px 0;
-    font-size: 16px;
+/* FEATURES */
+.kr-features{
+text-align:left;
+margin-top:18px;
+font-size:14px;
+line-height:20px;
 }
 
-.features li::before {
-    content: "✔";
-    color: #00c853;
-    margin-right: 10px;
+.kr-features p{
+margin:9px 0;
 }
 
-.join-btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 14px 35px;
-    background: #0d6efd;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-size: 18px;
-    font-weight: bold;
+.kr-features span{
+color:#0d6efd;
+font-weight:bold;
 }
 
-.join-btn:hover {
-    background: #084298;
+/* CTA BUTTON */
+.kr-btn{
+display:block;
+margin-top:22px;
+padding:16px;
+background:linear-gradient(45deg,#0d6efd,#00b4ff);
+color:white;
+font-size:16px;
+font-weight:bold;
+border-radius:14px;
+text-decoration:none;
+box-shadow:0 0 18px rgba(13,110,253,0.6);
+animation:glow 1.5s infinite alternate;
+transition:0.3s;
 }
 
-.footer {
-    margin-top: 40px;
-    font-size: 13px;
-    color: #555;
+.kr-btn:hover{
+transform:scale(1.05);
 }
 
-.agency {
-    margin-top: 10px;
+/* BUTTON GLOW */
+@keyframes glow{
+from{
+box-shadow:0 0 10px rgba(13,110,253,0.5);
+}
+to{
+box-shadow:0 0 28px rgba(13,110,253,1);
+}
 }
 
-.agency a {
-    text-decoration: none;
-    color: #0d6efd;
-    font-weight: bold;
+/* INFO TEXT */
+.kr-info{
+margin-top:12px;
+font-size:13px;
+color:#333;
+font-weight:bold;
+}
+
+/* DISCLAIMER */
+.kr-disclaimer{
+font-size:12px;
+color:#777;
+margin-top:14px;
+}
+
+/* LINKS */
+.kr-links{
+margin-top:12px;
+font-size:13px;
+}
+
+.kr-links a{
+color:#0d6efd;
+text-decoration:none;
+margin:0 5px;
+}
+
+/* AGENCY */
+.kr-agency{
+margin-top:10px;
+font-size:13px;
+}
+
+.kr-agency a{
+color:#0d6efd;
+font-weight:bold;
+text-decoration:none;
 }
 
 </style>
-
 </head>
+
+<body>
+
+<div class="page-bg">
+
+<div class="kr-card">
+
+<img src="https://growforexx.site/wp-content/uploads/2025/08/KRISHNA-1.jpg" class="kr-logo">
+
+<div class="kr-badge">
+👑 7+ Years Experience • Crypto King
+</div>
+
+<div class="kr-title">
+Krishna Crypto – Premium Community
+</div>
+
+<div class="kr-subtitle">
+Forex & Crypto Market Education • Smart Trading • Risk Management
+</div>
+
+<div class="kr-trust">
+15,000+ Active Trading Learners 🚀
+</div>
+
+<div class="kr-features">
+
+<p><span>✓</span> Daily Forex & Crypto Market Learning Updates</p>
+<p><span>✓</span> Gold (XAUUSD) & Major Pair Education Support</p>
+<p><span>✓</span> Smart Entry & Exit Logic Training</p>
+<p><span>✓</span> Capital Protection & Risk Management Guidance</p>
+<p><span>✓</span> Beginner Friendly Step-by-Step Trading Education</p>
+<p><span>✓</span> Premium Community Learning Environment</p>
+
+</div>
+
+<a href="https://telegram.me/+hNnpYUI0SBs3ZWJl" class="kr-btn">
+Join Free Telegram Premium Community
+</a>
+
+<div class="kr-info">
+Instant Access • No Registration Required ✅
+</div>
+
+<div class="kr-disclaimer">
+Educational purpose only • No tips • No guaranteed profits • Trading involves risk
+</div>
+
+<div class="kr-links">
+<a href="#">Privacy Policy</a> |
+<a href="#">Disclaimer</a> |
+<a href="#">Terms</a>
+</div>
+
+<div class="kr-agency">
+Maintained By 
+<a href="https://wa.link/y2913g" target="_blank">
+Metamind Digital Agency
+</a>
+</div>
+
+</div>
+
+</div>
+
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -115,77 +249,17 @@ n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '894012396362122');
+s.parentNode.insertBefore(t,s)}
+(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1653595885610674');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=894012396362122&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1309208437892596');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1309208437892596&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-<body>
 
-<div class="top-bar">
-Don't have Telegram yet? <a href="https://telegram.org" target="_blank">Try it now</a>
-</div>
-
-<div class="container">
-
-<img src="https://growforexx.site/wp-content/uploads/2025/08/KRISHNA-1.jpg" class="logo">
-
-<div class="title">
-Krishna Crypto Forex Community ✅
-</div>
-
-<div class="subtitle">
-Trade Smart | Earn Consistently | Grow Together
-</div>
-
-<div class="stats">
-10,000+ Active Traders
-</div>
-
-<ul class="features">
-<li>Daily Forex Trading Signals</li>
-<li>Scalping & Swing Trade Setups</li>
-<li>High Accuracy Entry & Exit Levels</li>
-<li>Proper Risk Management Guidance</li>
-<li>Market News & Analysis Updates</li>
-</ul>
-
-<a href="https://telegram.me/+hNnpYUI0SBs3ZWJl" class="join-btn">
-Join Telegram Channel
-</a>
-
-<div class="footer">
-Forex trading involves risk. Please trade responsibly and manage your risk properly.
-</div>
-
-<div class="agency">
-Maintained By <a href="https://wa.link/y2913g" target="_blank">Metamind Digital Agency</a>
-</div>
-
-</div>
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1653595885610674&ev=PageView&noscript=1"/>
+</noscript>
 
 </body>
 </html>
-
-
